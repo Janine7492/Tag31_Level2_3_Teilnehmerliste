@@ -1,0 +1,118 @@
+/* ==========================
+        global
+========================== */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+/* ==========================
+        header
+========================== */
+header {
+    padding: 5rem;
+}
+
+header h1 {
+    font-size: 3rem;
+    text-align: center;
+    text-decoration: underline;
+}
+
+/* ==========================
+        main
+========================== */
+
+main {
+    width: 80%;
+    margin: 1rem auto;
+}
+
+form fieldset {
+    width: 60%;
+    margin: 0 auto;
+    padding: 1rem 2rem 4rem 2rem;
+    background-color: rgba(191, 191, 191, 0.2);
+}
+
+form fieldset h2 {
+    margin-bottom: 3rem;
+    font-weight: bold;
+}
+
+form fieldset label {
+    font-size: 1.6rem;
+    margin-right: 1rem;
+    word-wrap: break-word;
+}
+
+form fieldset input {
+    padding: 0.3rem;
+    font-size: 1.3rem;
+    width: 75%;
+}
+
+form fieldset div {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 2rem;
+}
+
+form fieldset button {
+    font-size: 1.3rem;
+    padding: 0.5rem;
+    background-color: rgba(191, 191, 191, 0.5);
+    border-radius: 1rem;
+    border: none;
+    box-shadow: 3px 3px 3px grey;
+}
+
+form fieldset button:active {
+    box-shadow: inset 3px 3px 3px grey;
+    background-color: rgba(191, 191, 191, 1);
+}
+
+form fieldset p {
+    font-size: 1.6rem;
+    margin-top: 2rem;
+    font-weight: bold;
+    color: crimson;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin: 1rem auto 1rem auto;
+}
+
+section p {
+    font-size: 1.2rem;
+    margin: 0 auto 3rem auto;
+}
+
+section p span {
+    font-weight: bold;
+}
+
+
+section {
+    width: 60%;
+    margin: 3rem auto;
+    padding: 1rem 2rem 5rem 2rem;
+    background-color: rgba(191, 191, 191, 0.2);
+    border: 1px solid black;
+}
+
+section article li {
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+
+section article li:nth-last-of-type(1) {
+    font-weight: bold;
+}

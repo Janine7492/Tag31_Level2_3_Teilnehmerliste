@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <h1>Teilnehmer - Veranstaltung XY</h1>
+    </header>
+    <main>
+        <form action="">
+            <fieldset>
+                <h2>Teilnehmer hinzufügen</h2>
+                <label for="participant">Teilnehmer:</label>
+                <input type="text" name="participant" id="participant" placeholder="Vor- und Nachname">
+                <div>
+                    <button type="button" onclick="addToArray(event)">Hinzufügen</button>
+                    <button type="button" onclick="deleteFromArray(event)">Rückgängig</button>
+                </div>
+                <p id="errorMessage"></p>
+            </fieldset>
+        </form>
+        <section>
+            <h2>Teilnehmerliste</h2>
+            <p>(Der zuletzt hinzugefügte Teilnehmer ist jeweils hervorgehoben)</p>
+            <p>Aktuell angemeldet: <span id="numberOfParticipants">0</span> Teilnehmer</p>
+            <article id="participantsList">
+            </article>
+        </section>
+    </main>
+
+    <script src="./assets/js/main.js"></script>
+</body>
+
+</html>
